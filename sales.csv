@@ -1,0 +1,221 @@
+sale_id,product_id,product_name,category,quantity,price,customer_id,customer_name,region,sale_date,payment_method
+1,112,Roteador Wi-Fi,Eletrônicos,7.0,123.47973281820829,4495,Monica Council,Sudeste,2025-03-05,Dinheiro
+2,131,"Smart TV 50""",Eletrônicos,1.0,2200.0,2527,Letty Paradee,Sudeste,2025-03-05,Boleto
+3,108,HD Externo 1TB,Eletrônicos,6.0,250.0,4763,Fred Gragg,Sul,2025-03-05,Boleto
+4,104,Impressora Laser,Escritório,9.0,450.0,5028,Amy Inyart,Centro-Oeste,2025-03-05,Dinheiro
+5,133,Cabo USB-C,Periféricos,1.0,12.5,4296,Stephanie Kelly,Sudeste,2025-03-05,Pix
+6,112,Roteador Wi-Fi,Eletrônicos,2.0,120.0,2667,Mark Steward,Sul,2025-03-05,Dinheiro
+7,132,Suporte de Monitor,Escritório,6.0,55.959144302785994,4584,Claudette Wagner,Centro-Oeste,2025-03-05,Dinheiro
+8,137,Projetor,Eletrônicos,7.0,850.0,2335,Carol Paulino,Sul,2025-03-05,Pix
+9,133,Cabo USB-C,Periféricos,10.0,12.5,3011,Anna Cummings,Sul,2025-03-05,Boleto
+10,106,Cadeira Ergonômica,Escritório,3.0,199.9,2829,William Bras,Centro-Oeste,2025-03-05,Cartão
+11,110,Fone de Ouvido,Periféricos,2.0,35.0,5686,Gerald Mendenhall,Centro-Oeste,2025-03-05,Pix
+12,115,Cabo HDMI,Periféricos,7.0,15.0,3656,James Kauffman,Nordeste,2025-03-05,Boleto
+13,118,Teclado Bluetooth,Periféricos,4.0,65.0,4953,Marla Harrison,Centro-Oeste,2025-03-05,Pix
+14,125,Caixa de Som Bluetooth,Eletrônicos,4.0,120.0,1913,William Wilke,Sudeste,2025-03-05,Pix
+15,102,Teclado Mecânico,Periféricos,9.0,85.0,5941,Shawn Crossley,Sudeste,2025-03-05,Pix
+16,133,Cabo USB-C,Periféricos,5.0,12.5,1358,Donna Swanson,Centro-Oeste,2025-03-05,Pix
+17,131,"Smart TV 50""",Eletrônicos,3.0,2200.0,4058,Donald Lane,Sudeste,2025-03-05,Boleto
+18,127,Papel A4 500un,Escritório,7.0,25.0,2437,Vicki Ferrusi,Norte,2025-03-05,Pix
+19,118,Teclado Bluetooth,Periféricos,3.0,65.0,5921,Doris Crate,Centro-Oeste,2025-03-05,Dinheiro
+20,139,Mouse Gamer,Periféricos,5.0,99.9,1356,Hazel Macaraeg,Norte,2025-03-05,Dinheiro
+21,104,Impressora Laser,Escritório,6.0,450.0,5645,Frederick Davis,Sudeste,2025-03-05,Cartão
+22,149,Caixa de Som Portátil,Eletrônicos,1.0,79.9,2373,Jarrod Payne,Centro-Oeste,2025-03-05,Dinheiro
+23,101,Mouse Sem Fio,Periféricos,2.0,25.99,2487,Lena Gamble,Sudeste,2025-03-05,Dinheiro
+24,138,Grampeador,Escritório,,15.0,1400,Rosa Bell,Nordeste,2025-03-05,Dinheiro
+25,116,Notebook i7,Eletrônicos,6.0,4500.0,4519,John Andrews,Norte,2025-03-05,Cartão
+26,103,"Monitor 24""",Eletrônicos,5.0,300.06259315544776,1348,Deborah Lee,Centro-Oeste,2025-03-05,Cartão
+27,120,Cartucho de Tinta,Escritório,5.0,39.9,1893,Harold Collinsworth,Norte,2025-03-05,Boleto
+28,125,Caixa de Som Bluetooth,Eletrônicos,2.0,120.0,2270,Darlene Shirley,Sudeste,2025-03-05,Dinheiro
+29,111,"Monitor 27""",Eletrônicos,8.0,399.9,3544,Clara Moorehead,Norte,2025-03-05,Cartão
+30,108,HD Externo 1TB,Eletrônicos,10.0,250.0,2716,Milan Gauthier,Sul,2025-03-05,Boleto
+31,130,Microfone USB,Periféricos,9.0,75.0,4381,Brenda Britton,Centro-Oeste,2025-03-05,Dinheiro
+32,113,Caneta Esferográfica,Escritório,8.0,1.5,4507,George Sloan,Nordeste,2025-03-05,Cartão
+33,119,"Monitor 32""",Eletrônicos,1.0,599.9,5698,Donna Raisley,Sudeste,2025-03-05,Boleto
+34,116,Notebook i7,Eletrônicos,7.0,4500.0,4822,Mario Chavez,Norte,2025-03-05,Boleto
+35,150,Filtro de Linha,Periféricos,10.0,39.44133515940104,4997,Mary Turner,Nordeste,2025-03-05,Cartão
+36,127,Papel A4 500un,Escritório,4.0,25.0,5909,Joaquin Rodriguez,Norte,2025-03-05,Dinheiro
+37,103,"Monitor 24""",Eletrônicos,2.0,299.9,5478,Sarah Mattison,Sul,2025-03-05,Boleto
+38,134,"Tablet 10""",Eletrônicos,9.0,999.9,2510,Jesse Duncan,Sul,2025-03-05,Dinheiro
+39,107,Webcam HD,Periféricos,4.0,42.01940932780136,2891,Evelyn Mudget,Sudeste,2025-03-05,Cartão
+40,116,Notebook i7,Eletrônicos,,4500.0,3746,Hershel Rosado,Norte,2025-03-05,Dinheiro
+41,130,Microfone USB,Periféricos,4.0,75.0,3653,Lisa Lopez,Norte,2025-03-05,Pix
+42,141,Calculadora,Escritório,10.0,19.9,5327,Fernando Fuss,Norte,2025-03-05,Pix
+43,137,Projetor,Eletrônicos,8.0,850.0,3058,Dante Lavery,Sul,2025-03-05,Dinheiro
+44,137,Projetor,Eletrônicos,5.0,850.0,1770,Kenneth Cantrell,Sudeste,2025-03-05,Dinheiro
+45,123,Luminária de Mesa,Escritório,4.0,45.0,5411,Raul Lewis,Centro-Oeste,2025-03-05,Dinheiro
+46,123,Luminária de Mesa,Escritório,5.0,45.0,4052,Olive Carter,Norte,2025-03-05,Cartão
+47,110,Fone de Ouvido,Periféricos,2.0,35.0,5691,Erin Brogdon,Nordeste,2025-03-05,Pix
+48,141,Calculadora,Escritório,9.0,19.9,2687,Michael Archuleta,Centro-Oeste,2025-03-05,Cartão
+49,139,Mouse Gamer,Periféricos,1.0,99.9,5299,Robert Creed,Norte,2025-03-05,Cartão
+50,128,Smartphone Básico,Eletrônicos,8.0,799.9,1029,Ray Steichen,Sudeste,2025-03-05,Pix
+51,143,Teclado Sem Fio,Periféricos,8.0,55.0,3610,Susan Sullivan,Sul,2025-03-05,Pix
+52,122,Carregador Portátil,Eletrônicos,6.0,89.9,3036,Kevin Blok,Sudeste,2025-03-05,Boleto
+53,134,"Tablet 10""",Eletrônicos,10.0,999.9,2184,Christy Timmons,Centro-Oeste,2025-03-05,Dinheiro
+54,144,HD SSD 1TB,Eletrônicos,6.0,400.0,4932,Linda Glenn,Sul,2025-03-05,Dinheiro
+55,121,Hub USB,Periféricos,4.0,29.9,1646,Mary Murray,Sul,2025-03-05,Cartão
+56,124,Pendrive 64GB,Eletrônicos,2.0,35.0,3043,Maureen Devine,Centro-Oeste,2025-03-05,Dinheiro
+57,142,Placa de Vídeo,Eletrônicos,9.0,1500.0,2454,Carolyn Woods,Sudeste,2025-03-05,Cartão
+58,104,Impressora Laser,Escritório,6.0,450.0,4700,Esther Haider,Nordeste,2025-03-05,Cartão
+59,149,Caixa de Som Portátil,Eletrônicos,3.0,79.9,5309,Gloria Swigart,Sudeste,2025-03-05,Dinheiro
+60,136,Headset Gamer,Periféricos,10.0,150.0,5782,Sarah Holloway,Centro-Oeste,2025-03-05,Pix
+61,120,Cartucho de Tinta,Escritório,8.0,39.9,4469,Yvonne Iniguez,Nordeste,2025-03-05,Boleto
+62,143,Teclado Sem Fio,Periféricos,8.0,55.0,3885,Margaret Dubois,Sul,2025-03-05,Pix
+63,117,Mousepad,Periféricos,6.0,9.9,4865,Dolores Carroll,Norte,2025-03-05,Boleto
+64,140,Smartwatch,Eletrônicos,4.0,299.0,2140,Mable Bernard,Sul,2025-03-05,Cartão
+65,108,HD Externo 1TB,Eletrônicos,1.0,250.0,1050,Cassandra Margulis,Sul,2025-03-05,Pix
+66,123,Luminária de Mesa,Escritório,6.0,45.0,2994,Raymond Cater,Norte,2025-03-05,Pix
+67,128,Smartphone Básico,Eletrônicos,6.0,799.9,1844,Stephen Collier,Norte,2025-03-05,Cartão
+68,150,Filtro de Linha,Periféricos,3.0,39.9,4000,Amanda Muller,Norte,2025-03-05,Cartão
+69,147,"TV 42""",Eletrônicos,9.0,1800.0,1177,Duane Adams,Sudeste,2025-03-05,Cartão
+70,147,"TV 42""",Eletrônicos,10.0,1800.0,4731,Paul Flesher,Sudeste,2025-03-05,Pix
+71,123,Luminária de Mesa,Escritório,10.0,45.0,3867,Larry Hardy,Norte,2025-03-05,Boleto
+72,114,SSD 500GB,Eletrônicos,9.0,180.0,4556,Bobby Davis,Nordeste,2025-03-05,Cartão
+73,107,Webcam HD,Periféricos,10.0,45.5,1883,David Mcelwee,Centro-Oeste,2025-03-05,Cartão
+74,114,SSD 500GB,Eletrônicos,4.0,180.0,2926,Nancy Laird,Sul,2025-03-05,Boleto
+75,148,Porta Canetas,Escritório,7.0,8.9,5412,Gregory Fackler,Sudeste,2025-03-05,Cartão
+76,117,Mousepad,Periféricos,7.0,9.9,3521,Keith Moyer,Centro-Oeste,2025-03-05,Dinheiro
+77,137,Projetor,Eletrônicos,1.0,850.0,2343,Jonathan Weiland,Nordeste,2025-03-05,Boleto
+78,136,Headset Gamer,Periféricos,10.0,150.0,4748,Patricia Chauez,Sudeste,2025-03-05,Boleto
+79,113,Caneta Esferográfica,Escritório,4.0,1.5,3821,Wallace Harres,Norte,2025-03-05,Pix
+80,102,Teclado Mecânico,Periféricos,8.0,85.0,1548,Ira Hale,Sul,2025-03-05,Pix
+81,142,Placa de Vídeo,Eletrônicos,8.0,1500.0,4430,Carol Broder,Sudeste,2025-03-05,Boleto
+82,103,"Monitor 24""",Eletrônicos,6.0,299.9,3399,Mary Tassone,Centro-Oeste,2025-03-05,Dinheiro
+83,120,Cartucho de Tinta,Escritório,5.0,39.9,3983,Archie Talley,Sul,2025-03-05,Pix
+84,116,Notebook i7,Eletrônicos,6.0,4500.0,1480,Rhonda Baez,Centro-Oeste,2025-03-05,Pix
+85,130,Microfone USB,Periféricos,2.0,75.0,5376,Sam Boggio,Sul,2025-03-05,Cartão
+86,123,Luminária de Mesa,Escritório,2.0,45.0,2609,Neil Coleman,Sudeste,2025-03-05,Cartão
+87,149,Caixa de Som Portátil,Eletrônicos,1.0,79.9,3213,John Haugh,Sudeste,2025-03-05,Boleto
+88,124,Pendrive 64GB,Eletrônicos,3.0,35.0,5049,Bradley Havens,Norte,2025-03-05,Dinheiro
+89,135,Organizador de Mesa,Escritório,7.0,34.9,3966,Marissa Salmons,Norte,2025-03-05,Boleto
+90,117,Mousepad,Periféricos,6.0,9.9,4685,Phillip Riley,Centro-Oeste,2025-03-05,Pix
+91,122,Carregador Portátil,Eletrônicos,6.0,89.9,5568,Thomas Farley,Sul,2025-03-05,Pix
+92,133,Cabo USB-C,Periféricos,8.0,12.5,2470,Ouida Bowman,Sul,2025-03-05,Boleto
+93,127,Papel A4 500un,Escritório,1.0,25.0,2997,Michelle Simon,Sudeste,2025-03-05,Boleto
+94,142,Placa de Vídeo,Eletrônicos,1.0,1500.0,4613,Debra Asquith,Nordeste,2025-03-05,Pix
+95,104,Impressora Laser,Escritório,8.0,450.0,3483,Ivory Davis,Centro-Oeste,2025-03-05,Cartão
+96,146,Adaptador VGA,Periféricos,4.0,22.0,1730,Linda Mcdaniel,Centro-Oeste,2025-03-05,Cartão
+97,102,Teclado Mecânico,Periféricos,1.0,85.0,1108,Renee James,Nordeste,2025-03-05,Cartão
+98,136,Headset Gamer,Periféricos,6.0,150.0,1233,Jo Jackson,Norte,2025-03-05,Cartão
+99,143,Teclado Sem Fio,Periféricos,2.0,55.0,1378,Ryan Ketcham,Sul,2025-03-05,Boleto
+100,130,Microfone USB,Periféricos,2.0,75.0,3746,Hershel Rosado,Centro-Oeste,2025-03-05,Pix
+101,116,Notebook i7,Eletrônicos,6.0,4500.0,1462,Jamaal Infante,Nordeste,2025-03-05,Pix
+102,119,"Monitor 32""",Eletrônicos,9.0,599.9,5016,William Haynes,Sudeste,2025-03-05,Cartão
+103,103,"Monitor 24""",Eletrônicos,9.0,299.9,2834,Lynda Webber,Norte,2025-03-05,Cartão
+104,105,Notebook i5,Eletrônicos,8.0,3200.0,4197,Flora Marsh,Norte,2025-03-05,Pix
+105,144,HD SSD 1TB,Eletrônicos,5.0,400.0,3072,Alberta Cotelesse,Sul,2025-03-05,Dinheiro
+106,103,"Monitor 24""",Eletrônicos,7.0,299.9,2555,Gustavo Wilder,Sul,2025-03-05,Boleto
+107,138,Grampeador,Escritório,3.0,15.0,4355,Kevin Quinn,Sudeste,2025-03-05,Boleto
+108,126,Adaptador HDMI,Periféricos,8.0,19.9,1828,Jennifer Sabatino,Sul,2025-03-05,Pix
+109,137,Projetor,Eletrônicos,3.0,850.0,5828,Mittie Aggas,Sudeste,2025-03-05,Pix
+110,101,Mouse Sem Fio,Periféricos,6.0,25.99,4467,Kristen Vazquez,Norte,2025-03-05,Pix
+111,104,Impressora Laser,Escritório,7.0,450.0,4841,Joannie Barner,Norte,2025-03-05,Boleto
+112,107,Webcam HD,Periféricos,5.0,45.5,2645,David Benoit,Sul,2025-03-05,Cartão
+113,113,Caneta Esferográfica,Escritório,6.0,1.5,3992,James Garcia,Sudeste,2025-03-05,Cartão
+114,142,Placa de Vídeo,Eletrônicos,7.0,1500.0,4787,Debbie Arnold,Nordeste,2025-03-05,Boleto
+115,123,Luminária de Mesa,Escritório,9.0,45.0,3722,Daniel Gene,Nordeste,2025-03-05,Boleto
+116,143,Teclado Sem Fio,Periféricos,6.0,55.0,3648,Catarina Shannon,Nordeste,2025-03-05,Pix
+117,150,Filtro de Linha,Periféricos,5.0,39.9,5342,Mildred Robertson,Sudeste,2025-03-05,Pix
+118,137,Projetor,Eletrônicos,10.0,850.0,4054,Mary Cole,Norte,2025-03-05,Dinheiro
+119,145,Caderno 200 Folhas,Escritório,9.0,12.0,1501,Thomas Rogers,Sudeste,2025-03-05,Cartão
+120,141,Calculadora,Escritório,7.0,19.9,4565,Jill Hull,Sul,2025-03-05,Boleto
+121,102,Teclado Mecânico,Periféricos,5.0,85.0,4713,James Jacobs,Norte,2025-03-05,Pix
+122,109,Mesa de Escritório,Escritório,2.0,150.0,1419,Maxine Lee,Norte,2025-03-05,Dinheiro
+123,101,Mouse Sem Fio,Periféricos,10.0,25.99,1694,Frank Garcia,Norte,2025-03-05,Pix
+124,125,Caixa de Som Bluetooth,Eletrônicos,4.0,120.0,3654,Shirley Dickerson,Sudeste,2025-03-05,Cartão
+125,103,"Monitor 24""",Eletrônicos,5.0,298.73586130264255,5837,Sandra Borcherding,Norte,2025-03-05,Pix
+126,132,Suporte de Monitor,Escritório,9.0,59.9,2138,Celia Payne,Centro-Oeste,2025-03-05,Cartão
+127,119,"Monitor 32""",Eletrônicos,4.0,599.9,1557,Christopher Robinson,Sudeste,2025-03-05,Boleto
+128,132,Suporte de Monitor,Escritório,5.0,56.99538535308906,3480,James Cloyd,Sul,2025-03-05,Boleto
+129,110,Fone de Ouvido,Periféricos,9.0,35.0,1757,Michael Neri,Nordeste,2025-03-05,Boleto
+130,110,Fone de Ouvido,Periféricos,10.0,35.0,2163,Ruth Cohen,Sudeste,2025-03-05,Dinheiro
+131,125,Caixa de Som Bluetooth,Eletrônicos,8.0,120.0,5431,David Botello,Sudeste,2025-03-05,Dinheiro
+132,108,HD Externo 1TB,Eletrônicos,9.0,250.0,4337,Melvin Dewitt,Nordeste,2025-03-05,Dinheiro
+133,142,Placa de Vídeo,Eletrônicos,3.0,1500.0,4397,Vanessa Martin,Nordeste,2025-03-05,Pix
+134,144,HD SSD 1TB,Eletrônicos,5.0,400.0,3935,Joshua Peacock,Sudeste,2025-03-05,Dinheiro
+135,143,Teclado Sem Fio,Periféricos,3.0,55.0,2531,Jessica Mason,Norte,2025-03-05,Pix
+136,128,Smartphone Básico,Eletrônicos,7.0,799.9,2271,Ryan Anderson,Sudeste,2025-03-05,Pix
+137,105,Notebook i5,Eletrônicos,10.0,3200.0,2075,Katherine Stanton,Norte,2025-03-05,Cartão
+138,143,Teclado Sem Fio,Periféricos,10.0,55.0,5015,Steven Brown,Sudeste,2025-03-05,Pix
+139,124,Pendrive 64GB,Eletrônicos,5.0,35.0,4978,Theresa Miller,Centro-Oeste,2025-03-05,Dinheiro
+140,120,Cartucho de Tinta,Escritório,6.0,39.9,3590,James Miller,Nordeste,2025-03-05,Cartão
+141,110,Fone de Ouvido,Periféricos,8.0,35.0,2344,John Cooper,Sul,2025-03-05,Boleto
+142,109,Mesa de Escritório,Escritório,8.0,150.0,2601,Ashley Oleary,Sudeste,2025-03-05,Dinheiro
+143,127,Papel A4 500un,Escritório,7.0,25.0,2711,Ryan Langner,Norte,2025-03-05,Cartão
+144,144,HD SSD 1TB,Eletrônicos,7.0,400.0,1105,Janet Sexton,Centro-Oeste,2025-03-05,Boleto
+145,140,Smartwatch,Eletrônicos,3.0,299.0,1583,Gerald Gutierrez,Centro-Oeste,2025-03-05,Boleto
+146,104,Impressora Laser,Escritório,4.0,450.0,2065,James Harris,Norte,2025-03-05,Boleto
+147,121,Hub USB,Periféricos,10.0,29.9,3901,Jacob Hines,Sudeste,2025-03-05,Dinheiro
+148,127,Papel A4 500un,Escritório,5.0,25.0,5295,Maria Mendez,Sudeste,2025-03-05,Boleto
+149,129,Estante de Livros,Escritório,10.0,250.0,3990,Kathleen Carbary,Norte,2025-03-05,Boleto
+150,140,Smartwatch,Eletrônicos,5.0,299.0,3882,Donald Owen,Centro-Oeste,2025-03-05,Cartão
+151,139,Mouse Gamer,Periféricos,1.0,99.9,3551,Trey Hull,Norte,2025-03-05,Dinheiro
+152,107,Webcam HD,Periféricos,5.0,45.5,3635,Marcia Settle,Nordeste,2025-03-05,Dinheiro
+153,111,"Monitor 27""",Eletrônicos,4.0,399.9,1610,Katie Crawford,Sudeste,2025-03-05,Cartão
+154,141,Calculadora,Escritório,5.0,19.9,2813,Kathryn Hayhoe,Nordeste,2025-03-05,Dinheiro
+155,115,Cabo HDMI,Periféricos,4.0,15.0,4070,Robin Moore,Sul,2025-03-05,Cartão
+156,131,"Smart TV 50""",Eletrônicos,2.0,2200.0,1911,Vanessa Jennings,Sul,2025-03-05,Boleto
+157,132,Suporte de Monitor,Escritório,1.0,59.9,3316,George Gonzalez,Nordeste,2025-03-05,Pix
+158,127,Papel A4 500un,Escritório,,25.0,5686,Gerald Mendenhall,Centro-Oeste,2025-03-05,Dinheiro
+159,146,Adaptador VGA,Periféricos,10.0,22.0,3580,Tempie Cole,Centro-Oeste,2025-03-05,Cartão
+160,108,HD Externo 1TB,Eletrônicos,2.0,250.0,5419,Virginia Young,Centro-Oeste,2025-03-05,Boleto
+161,103,"Monitor 24""",Eletrônicos,8.0,299.9,1902,Martha Simpkins,Sul,2025-03-05,Boleto
+162,140,Smartwatch,Eletrônicos,10.0,299.0,3217,Normand Powers,Sudeste,2025-03-05,Cartão
+163,102,Teclado Mecânico,Periféricos,2.0,85.0,1362,Susan Edwards,Sudeste,2025-03-05,Cartão
+164,127,Papel A4 500un,Escritório,,25.0,2267,Mary Woodall,Norte,2025-03-05,Cartão
+165,145,Caderno 200 Folhas,Escritório,5.0,12.0,1147,Nora Courtney,Norte,2025-03-05,Cartão
+166,143,Teclado Sem Fio,Periféricos,1.0,55.0,5807,William Ramirez,Centro-Oeste,2025-03-05,Boleto
+167,128,Smartphone Básico,Eletrônicos,8.0,799.9,4357,Patricia Ragusano,Sudeste,2025-03-05,Dinheiro
+168,140,Smartwatch,Eletrônicos,10.0,299.0,1556,Bobby Villarreal,Sul,2025-03-05,Cartão
+169,127,Papel A4 500un,Escritório,3.0,25.0,3672,Andrea Reeves,Sul,2025-03-05,Pix
+170,124,Pendrive 64GB,Eletrônicos,7.0,35.0,3419,Charles Rice,Norte,2025-03-05,Dinheiro
+171,118,Teclado Bluetooth,Periféricos,1.0,65.0,5928,Larry Oelke,Centro-Oeste,2025-03-05,Boleto
+172,117,Mousepad,Periféricos,6.0,9.9,4366,Kelli Muir,Sudeste,2025-03-05,Dinheiro
+173,149,Caixa de Som Portátil,Eletrônicos,8.0,79.9,1808,Novella Wright,Norte,2025-03-05,Pix
+174,148,Porta Canetas,Escritório,5.0,8.9,4589,Frank Benton,Norte,2025-03-05,Dinheiro
+175,142,Placa de Vídeo,Eletrônicos,2.0,1500.0,1438,Charles Gregory,Sudeste,2025-03-05,Pix
+176,108,HD Externo 1TB,Eletrônicos,4.0,250.0,3414,Cindy Patterson,Nordeste,2025-03-05,Cartão
+177,119,"Monitor 32""",Eletrônicos,1.0,599.9,2806,Russell Vinson,Norte,2025-03-05,Cartão
+178,146,Adaptador VGA,Periféricos,7.0,22.0,2224,Kecia Hanson,Centro-Oeste,2025-03-05,Boleto
+179,125,Caixa de Som Bluetooth,Eletrônicos,3.0,120.0,1969,Brian Blalock,Nordeste,2025-03-05,Dinheiro
+180,142,Placa de Vídeo,Eletrônicos,3.0,1500.0,5898,Tommy Chauarria,Sudeste,2025-03-05,Dinheiro
+181,127,Papel A4 500un,Escritório,5.0,25.0,4790,Ellen Baker,Centro-Oeste,2025-03-05,Pix
+182,138,Grampeador,Escritório,7.0,15.0,4466,Wayne Farina,Centro-Oeste,2025-03-05,Pix
+183,111,"Monitor 27""",Eletrônicos,9.0,399.9,5241,Shira Johnson,Centro-Oeste,2025-03-05,Boleto
+184,119,"Monitor 32""",Eletrônicos,8.0,599.9,3614,Jeremy Mcadams,Norte,2025-03-05,Cartão
+185,131,"Smart TV 50""",Eletrônicos,9.0,2200.0,3275,Kathryn Martin,Sul,2025-03-05,Dinheiro
+186,124,Pendrive 64GB,Eletrônicos,3.0,35.0,3229,Charles Labranche,Norte,2025-03-05,Boleto
+187,127,Papel A4 500un,Escritório,6.0,25.0,4588,Marlon Hatch,Sudeste,2025-03-05,Pix
+188,133,Cabo USB-C,Periféricos,,12.5,3257,Ronnie Butcher,Centro-Oeste,2025-03-05,Boleto
+189,129,Estante de Livros,Escritório,9.0,250.0,2254,Edwin Hartz,Norte,2025-03-05,Cartão
+190,117,Mousepad,Periféricos,3.0,9.241956902413374,4107,David Richardson,Nordeste,2025-03-05,Boleto
+191,102,Teclado Mecânico,Periféricos,6.0,85.0,2438,Ronald Johnson,Sul,2025-03-05,Boleto
+192,139,Mouse Gamer,Periféricos,6.0,99.9,5982,Brian Trudeau,Norte,2025-03-05,Pix
+193,128,Smartphone Básico,Eletrônicos,8.0,801.7413578865823,2776,John Bain,Centro-Oeste,2025-03-05,Dinheiro
+194,139,Mouse Gamer,Periféricos,9.0,98.25072752159804,3880,John Luksa,Sudeste,2025-03-05,Boleto
+195,108,HD Externo 1TB,Eletrônicos,5.0,250.0,3275,Kathryn Martin,Centro-Oeste,2025-03-05,Boleto
+196,145,Caderno 200 Folhas,Escritório,7.0,12.0,2659,Maria Guzman,Norte,2025-03-05,Cartão
+197,124,Pendrive 64GB,Eletrônicos,9.0,35.0,4433,Albert Parks,Centro-Oeste,2025-03-05,Dinheiro
+198,106,Cadeira Ergonômica,Escritório,6.0,219.03733484913676,2073,Marylin Pagliari,Nordeste,2025-03-05,Dinheiro
+199,104,Impressora Laser,Escritório,7.0,450.0,2548,Joseph Lane,Nordeste,2025-03-05,Boleto
+200,116,Notebook i7,Eletrônicos,9.0,4500.0,4289,Reed Hall,Centro-Oeste,2025-03-05,Cartão
+201,149,Caixa de Som Portátil,Eletrônicos,9.0,79.9,2890,Marie Vines,Sudeste,2025-03-05,Pix
+202,130,Microfone USB,Periféricos,2.0,75.0,3251,Jason Guidice,Norte,2025-03-05,Cartão
+203,114,SSD 500GB,Eletrônicos,9.0,180.0,1724,Andrea Covington,Norte,2025-03-05,Boleto
+204,147,"TV 42""",Eletrônicos,4.0,1800.0,1226,Charles Gauvin,Sul,2025-03-05,Cartão
+205,127,Papel A4 500un,Escritório,10.0,25.0,1356,Hazel Macaraeg,Norte,2025-03-05,Dinheiro
+206,135,Organizador de Mesa,Escritório,4.0,34.9,3962,Leslie Paiz,Nordeste,2025-03-05,Dinheiro
+207,146,Adaptador VGA,Periféricos,3.0,22.0,5527,George Marston,Nordeste,2025-03-05,Cartão
+208,143,Teclado Sem Fio,Periféricos,8.0,55.0,1284,Scott Massie,Sul,2025-03-05,Dinheiro
+209,104,Impressora Laser,Escritório,5.0,450.0,5426,Barbara Huls,Sul,2025-03-05,Cartão
+210,111,"Monitor 27""",Eletrônicos,1.0,399.9,5136,Barbara Ramm,Sul,2025-03-05,Pix
+211,139,Mouse Gamer,Periféricos,7.0,99.9,1335,William Ely,Sudeste,2025-03-05,Boleto
+212,111,"Monitor 27""",Eletrônicos,8.0,399.9,4920,Shirley Goh,Sul,2025-03-05,Boleto
+213,134,"Tablet 10""",Eletrônicos,4.0,999.9,2881,Willie Worsley,Nordeste,2025-03-05,Cartão
+214,112,Roteador Wi-Fi,Eletrônicos,5.0,120.0,2877,Ralph Davenport,Norte,2025-03-05,Pix
+215,138,Grampeador,Escritório,3.0,15.0,4354,Edwin Libby,Centro-Oeste,2025-03-05,Dinheiro
+216,128,Smartphone Básico,Eletrônicos,3.0,799.9,4167,Roy Puryear,Norte,2025-03-05,Cartão
+217,120,Cartucho de Tinta,Escritório,9.0,39.9,2000,Melinda Shah,Norte,2025-03-05,Cartão
+218,124,Pendrive 64GB,Eletrônicos,7.0,35.0,2794,George Ross,Sudeste,2025-03-05,Pix
+219,117,Mousepad,Periféricos,1.0,9.9,3321,Charlene Staples,Sul,2025-03-05,Dinheiro
+220,102,Teclado Mecânico,Periféricos,4.0,85.0,2377,Vickie Yang,Sudeste,2025-03-05,Dinheiro
