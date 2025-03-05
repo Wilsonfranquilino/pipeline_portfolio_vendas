@@ -1,0 +1,167 @@
+version: '3.8'
+
+services:
+  airbyte-server:
+    image: airbyte/server:latest
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: jdbc:postgresql://airbyte-db:5432/airbyte
+      DATABASE_USER: airbyte
+      DATABASE_PASSWORD: airbyte
+    depends_on:
+      - airbyte-db
+
+  airbyte-webapp:
+    image: airbyte/webapp:latest
+    ports:
+      - "8001:80"
+    depends_on:
+      - airbyte-server
+
+  airbyte-scheduler:
+    image: airbyte/scheduler:latest
+    environment:
+      DATABASE_URL: jdbc:postgresql://airbyte-db:5432/airbyte
+      DATABASE_USER: airbyte
+      DATABASE_PASSWORD: airbyte
+    depends_on:
+      - airbyte-server
+
+  airbyte-db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airbyte
+      POSTGRES_PASSWORD: airbyte
+      POSTGRES_DB: airbyte
+    volumes:
+      - airbyte-db-data:/var/lib/postgresql/data
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - minio-data:/data
+
+  dbt:
+    image: python:3.9-slim
+    command: tail -f /dev/null
+    volumes:
+      - ./dbt_project:/dbt
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/bash -c "pip install dbt-core dbt-duckdb duckdb==0.9.2 && dbt --version && /bin/bash"
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: '2G'
+
+  airflow-webserver:
+    image: apache/airflow:2.7.3
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    command: webserver
+    depends_on:
+      - airflow-db
+
+  airflow-scheduler:
+    image: apache/airflow:2.7.3
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    command: scheduler
+    depends_on:
+      - airflow-db
+
+  airflow-init:
+    image: apache/airflow:2.7.3
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+    command: db init
+    depends_on:
+      - airflow-db
+
+  airflow-db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow-db-data:/var/lib/postgresql/data
+
+  dremio:
+    image: dremio/dremio-oss:latest
+    ports:
+      - "9047:9047"
+    volumes:
+      - dremio-data:/var/lib/dremio
+    depends_on:
+      - minio
+
+  metabase:
+    image: metabase/metabase:latest
+    ports:
+      - "3000:3000"
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: metabase
+      MB_DB_PORT: 5432
+      MB_DB_USER: metabase
+      MB_DB_PASS: metabase
+      MB_DB_HOST: metabase-db
+    depends_on:
+      - metabase-db
+
+  metabase-db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: metabase
+      POSTGRES_PASSWORD: metabase
+      POSTGRES_DB: metabase
+    volumes:
+      - metabase-db-data:/var/lib/postgresql/data
+
+  great-expectations:
+    image: python:3.9-slim
+    command: tail -f /dev/null
+    volumes:
+      - ./great_expectations:/gx
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/bash -c "pip install great_expectations s3fs && great_expectations --version && /bin/bash"
+
+  mkdocs:
+    image: squidfunk/mkdocs-material:latest
+    volumes:
+      - ./docs:/docs
+    ports:
+      - "8002:8000"
+    command: serve --dev-addr=0.0.0.0:8000
+
+volumes:
+  airbyte-db-data:
+  minio-data:
+  dremio-data:
+  airflow-db-data:
+  metabase-db-data:
